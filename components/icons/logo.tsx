@@ -3,8 +3,8 @@ export const Logo = ({ className }: { className?: string }) => (
     width="64"
     height="64"
     viewBox="0 0 64 64"
-    fill="#EEEFFC"
-    color="#EEEFFC"
+    fill="#6C7AF1"
+    color="#6C7AF1"
     aria-label="Linear Logotype"
     className={className}
   >
