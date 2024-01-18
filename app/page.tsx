@@ -6,9 +6,6 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div>
-      <header>
-        <Container>header</Container>
-      </header>
       <main>
         <Container>
           <Hero>
@@ -16,7 +13,7 @@ export default function Home() {
               Linear is a better way <br /> to build products
             </HeroTitle>
             <HeroSubtitle>
-              Meet the new standard for modern software development. <br />{' '}
+              Meet the new standard for modern software development. <br />
               Streamline issues, sprints, and product road maps.
             </HeroSubtitle>
             <Image
@@ -28,9 +25,6 @@ export default function Home() {
           </Hero>
         </Container>
       </main>
-      <footer>
-        <Container>footer</Container>
-      </footer>
     </div>
   );
 }

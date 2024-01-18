@@ -1,3 +1,5 @@
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
@@ -18,7 +20,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head />
-      <body className={inter.className}>{children}</body>
+      <body>
+        <div>
+          <Header />
+          <main className="pt-[var(--navigation-height)]">{children}</main>
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 }
